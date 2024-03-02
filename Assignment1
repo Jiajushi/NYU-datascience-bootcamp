@@ -2,6 +2,7 @@
 # 1. Write a function count_vowels(word) that takes a word as an argument and returns the number of vowels in the word
 
 
+count_vowels("example")
 
 
 # 2. Iterate through the following list of animals and print each one in all caps.
@@ -18,6 +19,11 @@
 
 
 # 4. Write a function sum_of_integers(a, b) that takes two integers as input from the user and returns their sum.
+
+
+
+
+
 
 
 
