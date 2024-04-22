@@ -1,0 +1,51 @@
+1. How do you control for biases?
+
+Biases refer to the error to capture the relationship within a dataset and usually related to underfitting. There is also another issues called variance often appear with biases, and in the most time we have to trade off each other. Variance is the error to capture the consistent prediction accrossing the different datasets and usually related with overfitting.
+
+In regression, we can use L1 Lasso and L2 Ridge regularization for controlling the bias and variance.
+
+2. What are confounding variables?
+
+Confounding variables are factors in a study or experiment that affect both the dependent variable (outcome of interest) and the independent variable (variable being studied for its effect on the outcome), leading to a potential distortion in the relationship between the independent and dependent variables. This distortion can result in a misleading or incorrect estimate of the effect of the independent variable on the dependent variable. Confounding variables can cause researchers to inaccurately infer causality.
+
+3. What is A/B testing?
+
+A/B testing, also known as split testing, is a statistical method used to compare two versions of a variable to determine which one performs better in a controlled experiment. Typically used in marketing, product management, and web design, this technique can help improve a product or enhance user experience by making data-driven decisions based on direct comparisons.
+
+4. When will you use Welch t-test?
+
+The Welch t-test should be used comparing the means whenever there is a suspicion or evidence of unequal variances between two groups being compared. This approach ensures that the statistical test remains valid and reliable under such conditions.
+
+5. prividing a hypothesis test for the averge time of calls equal 6 minute
+
+sample size=50
+sample mean=6.5 minutes
+degree of freedom=50-1=49
+standard deviation=1.2 minutes
+
+null hypothesis: u=6
+alternative hypothesis: u>6
+
+5% sigificance level 
+
+calculated t test=2.95
+crtiical value=1.68
+
+2.95>1.68, therefore we reject null hypothesis
+based on the t test, we can prove statically that the average time for calls is large then 6 minutes.
+
+6. providing a hypothesis test for comparing two group's student means scores whether there is a difference
+
+Group A student: sample size=25, mean=75, standard deviation=8
+Group B student: sample size=30, mean=78, standard deviation=7
+sigificant level: 5%
+
+Performing a Welch t-test to test whether there is a significant difference:
+The calculated Welch t-statistic is approximately -1.47 with 48.17 degrees of freedom. The corresponding p-value for this two-tailed test is approximately 0.149.
+The p-value of 0.149 is greater than the significance level of 0.05. This means we do not have sufficient evidence to reject the null hypothesis at the 5% significance level.
+Consequently, based on this statistical test, there is no significant difference in the mean scores between Group A (traditional teaching methods) and Group B (new teaching method).
+
+
+
+
+
